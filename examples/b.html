@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+		<!--标准mui.css-->
+		<link rel="stylesheet" href="../css/mui.min.css">
+		<!--App自定义的css-->
+		<link rel="stylesheet" type="text/css" href="../css/app.css"/>
+		<style>
+			input, button, .mui-btn {
+				margin-top: 10px;
+				margin-left: 10px;
+			}
+			.mui-content-padded{
+			  	margin: 0px;
+			  }
+		</style>
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav" >
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left" ><</a>
+			<h1 class="mui-title" >Feedback</h1>
+		</header>
+		<p style="margin-top:80px;">Select a type</p>
+	       	<div class="mui-content">
+		   
+		        <button type="button" class="mui-btn mui-btn-block" style="margin-left:0px;margin-top:-30px;">Inaccurate weather forecast</button>
+		        <button type="button" class="mui-btn mui-btn-block" style="margin-left:0px;margin-top:-11px;">Crash</button>
+		        <button type="button" class="mui-btn mui-btn-block" style="margin-left:0px;margin-top:-11px;">Phone lags</button>
+		        <button type="button" class="mui-btn mui-btn-block" style="margin-left:0px;margin-top:-11px;">Suggestions</button>
+		      
+		   
+		</div>
+  
+		
+		</body>
+	<script src="../js/mui.min.js"></script>
+	<script>
+		mui.init({
+			swipeBack:true //启用右滑关闭功能
+		});
+	</script>
+
+</html>
